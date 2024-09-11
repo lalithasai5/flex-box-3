@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>flex box 3</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="head">
+      <div id="maindiv">
+        <div class="innerdiv" style="flex-grow: 8">L</div>
+        <div class="innerdiv">A</div>
+        <div class="innerdiv">L</div>
+        <div class="innerdiv">I</div>
+        <div class="innerdiv" style="order: 2">H</div>
+        <div class="innerdiv" style="order: 1">T</div>
+        <div class="innerdiv" style="order: 3; flex-grow: 8; flex-shrink: 2">
+          A
+        </div>
+        <div
+          class="innerdiv"
+          style="order: 4; align-self: end; flex-basis: 200px"
+        >
+          s
+        </div>
+        <div class="innerdiv" style="order: 5; align-self: end">A</div>
+        <div class="innerdiv" style="order: 6; align-self: end">I</div>
+      </div>
+      <div id="maindiv1">
+        <div class="innerdiv" style="flex-grow: 8">L</div>
+        <div class="innerdiv">A</div>
+        <div class="innerdiv">L</div>
+        <div class="innerdiv">I</div>
+        <div class="innerdiv" style="order: 2">H</div>
+        <div class="innerdiv" style="order: 1">T</div>
+        <div class="innerdiv" style="order: 3; flex-grow: 8">A</div>
+        <div
+          class="innerdiv"
+          style="order: 4; align-self: center; flex-basis: 200px"
+        >
+          s
+        </div>
+        <div class="innerdiv" style="order: 5; align-self: center">A</div>
+        <div class="innerdiv" style="order: 6; align-self: center">I</div>
+      </div>
+      <div id="div3">
+        <div
+          class="innerdiv"
+          style="flex-basis: 200px; flex-grow: 3; flex-shrink: 9"
+        >
+          l
+        </div>
+        <div class="innerdiv">a</div>
+        <div class="innerdiv">l</div>
+      </div>
+    </div>
+  </body>
+</html>
